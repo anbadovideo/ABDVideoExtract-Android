@@ -21,5 +21,14 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    provided 'org.projectlombok:lombok:1.16.4'
     compile 'com.android.support:appcompat-v7:22.1.0'
+    compile 'com.android.support:recyclerview-v7:22.1.0'
+    compile 'com.google.guava:guava:18.0'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'com.squareup.okhttp:okhttp:2.3.0'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.github.bumptech.glide:glide:3.5.2'
+    compile 'com.github.bumptech.glide:okhttp-integration:1.2.2'
+    compile project(':iosched')
 }
